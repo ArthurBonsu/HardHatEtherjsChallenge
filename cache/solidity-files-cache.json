@@ -1,0 +1,782 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN INTERVIEW\\BLOCKCHAIN INTERVIEW 2\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\Challenge.sol": {
+      "lastModificationDate": 1618190268263,
+      "contentHash": "8f8b6b2770ec78f7f5ce1e1e6212a05e",
+      "sourceName": "contracts/Challenge.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "Challenge",
+        "Incrementor"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN INTERVIEW\\BLOCKCHAIN INTERVIEW 2\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\Math.sol": {
+      "lastModificationDate": 1618107252648,
+      "contentHash": "3510fed2352ae663a0b05b8e25bba034",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN INTERVIEW\\BLOCKCHAIN INTERVIEW 2\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\SafeMath.sol": {
+      "lastModificationDate": 1618107253976,
+      "contentHash": "edab2c170713a2f47c8cea501d7cc224",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN INTERVIEW\\BLOCKCHAIN INTERVIEW 2\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\UQ112x112.sol": {
+      "lastModificationDate": 1618107255291,
+      "contentHash": "a83e00a053b331e9763168168e009199",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\Challenge.sol": {
+      "lastModificationDate": 1633789399168,
+      "contentHash": "6e21e7a53758497307108ab06aafa723",
+      "sourceName": "contracts/Challenge.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "Challenge",
+        "Incrementor"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1618100648964,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\Math.sol": {
+      "lastModificationDate": 1632407260656,
+      "contentHash": "2a13a4d3b2e127e922f7be5b1f13f793",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\SafeMath.sol": {
+      "lastModificationDate": 1632407260657,
+      "contentHash": "9153b5900718b6d62bd970e7d1a67dd3",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\StringUtils.sol": {
+      "lastModificationDate": 1634099380217,
+      "contentHash": "fccc345a9dc665f74fd32d1e48c1b8e5",
+      "sourceName": "contracts/libraries/StringUtils.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "StringUtils"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\RockPaperScissors.sol": {
+      "lastModificationDate": 1635940237572,
+      "contentHash": "ac03ed486b34ec2641589996c5f33ff2",
+      "sourceName": "contracts/RockPaperScissors.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../contracts/libraries/StringUtils.sol"
+      ],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "RockPaperScissors"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1633958893418,
+      "contentHash": "2cd550cedf51b8d294607dad5023d717",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1633958893470,
+      "contentHash": "0eac3e1a83ee62326ca007811285b274",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1634037644464,
+      "contentHash": "4fe56b59ced59d87df6b796758f62895",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1633958893471,
+      "contentHash": "aa1be06992a99bb7393b26a6af3c4dfb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1633958893173,
+      "contentHash": "851485d5b925529b1a2f34a0be077891",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\libraries\\UQ112x112.sol": {
+      "lastModificationDate": 1632407260657,
+      "contentHash": "578248a2b25cb7d7a6398f7f273dc134",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\Oracle.sol": {
+      "lastModificationDate": 1634104480392,
+      "contentHash": "28c6a1fe1039d4fecde4dadd3dd259e6",
+      "sourceName": "contracts/Oracle.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "Oracle"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\Token.sol": {
+      "lastModificationDate": 1635944768839,
+      "contentHash": "52d85e2078950f7b0544641afc179064",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "D:\\BLOCKCHAIN EXPERIMENTAL LAB\\BLOCKCHAIN BACKUPS\\solidity-challenge-main2\\solidity-challenge-main2\\contracts\\Test.sol": {
+      "lastModificationDate": 1635407620781,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/Test.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    }
+  }
+}
